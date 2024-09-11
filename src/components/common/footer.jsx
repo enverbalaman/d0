@@ -12,18 +12,18 @@ const Footer = () => {
       links: [
         {
           id: 1,
-          link: "#/about",
+          link: "about",
           label: "Hakkımızda"
         },
         
         {
           id: 2,
-          link: "#/contact",
+          link: "contact",
           label: "İletişim"
         },
         {
           id: 3,
-          link: "#/blog-details",
+          link: "blog-details",
           label: "Blog"
         },
 
@@ -35,12 +35,12 @@ const Footer = () => {
       links: [
         {
           id: 1,
-          link: "#/faq",
+          link: "faq",
           label: "Sıkça Sorulan Sorular"
         },
         {
           id: 2,
-          link: "#/privacy-policy",
+          link: "privacy-policy",
           label: "Gizlilik Politası"
         }
 

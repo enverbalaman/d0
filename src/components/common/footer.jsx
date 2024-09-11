@@ -15,18 +15,14 @@ const Footer = () => {
           link: "/about",
           label: "Hakkımızda"
         },
+        
         {
           id: 2,
-          link: "/services",
-          label: "Hizmetler"
+          link: "/contact",
+          label: "İletişim"
         },
         {
           id: 3,
-          link: "/testimonial",
-          label: "Referanslar"
-        },
-        {
-          id: 4,
           link: "/blog-details",
           label: "Blog"
         },
@@ -85,11 +81,11 @@ const Footer = () => {
                         </li>
                         <li>
                           <strong>Email:</strong>
-                          <a className="text-decoration-none" href="mailto:info@defendzero.com">info@defendzero.com</a>
+                          <a className="text-decoration-none" href="mailto:info@defendzero.com"> info@defendzero.com</a>
                         </li>
                         <li>
                           <strong>Telefon:</strong>
-                          <a className="text-decoration-none" href="tel:55472543526">+90-531-792-9045</a>
+                          <a className="text-decoration-none" href="tel:55472543526"> 0850 850 3788</a>
                         </li>
                       </ul>
                     </div>
@@ -128,9 +124,9 @@ const Footer = () => {
         <div className="container">
 
           <div className="copyright-content text-center" data-cue="slideInUp">
-            <p>Copyright @ 2024 <strong>DefendZero</strong>, All Rights Reserved</p>
+            <p>Copyright @ 2024 <strong>defend</strong><small>zero</small>, All Rights Reserved</p>
           </div>
-          <div className="single-contact-info">
+          {/* <div className="single-contact-info">
             <div className="contact-social">
               <ul className="list-unstyled ps-0 mb-0 list">
                 <li className="d-inline-block">
@@ -155,7 +151,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

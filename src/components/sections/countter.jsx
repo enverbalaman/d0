@@ -31,7 +31,7 @@ const Countter = () => {
 
         <div ref={ref} className="counter-area pb-75 style-2">
             <div className="container">
-                <div className="row" data-cues="fadeIn">
+                <div className="row justify-content-center" data-cues="fadeIn">
                     {counterData.map(({ counter, id, title, label }) => (
                         <div key={id} className="col-lg-3 col-sm-6">
                             <div className="single-counter-card style-2">

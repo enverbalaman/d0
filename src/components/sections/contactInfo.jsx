@@ -28,7 +28,7 @@ const ContactInfo = () => {
                             <ul className="list-unstyled ps-0 mb-0">
 
                                 <li>
-                                    <a className="text-decoration-none" href="tel:+905317929045">+90 531 792 90 45</a>
+                                    <a className="text-decoration-none" href="tel:0850 850 3788">0850 850 3788</a>
                                 </li>
                             </ul>
                         </div>

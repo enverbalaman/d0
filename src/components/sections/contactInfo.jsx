@@ -1,9 +1,11 @@
 import React from 'react'
+import MapComponent from './mapComponent'
 
 const ContactInfo = () => {
     return (
         <div className="contact-area pages-style pt-100 pb-75">
             <div className="container">
+                <MapComponent />
                 <div className="row justify-content-center" data-cues="fadeIn">
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-contact-card text-center">
@@ -38,9 +40,7 @@ const ContactInfo = () => {
                                 <li>
                                     <a className="text-decoration-none" href="mailto:info@defendzero.com">info@defendzero.com</a>
                                 </li>
-                                <li>
-                                    <a className="text-decoration-none" href="mailto:support@defendzero.com">support@defendzero.com</a>
-                                </li>
+
                             </ul>
                         </div>
                     </div>

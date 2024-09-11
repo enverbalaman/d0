@@ -19,12 +19,12 @@ const MobileMenu = ({menuActive, setMenuActive}) => {
                             {
                                 menuList.map(({ id, label, dropDown, path }) => {
                                     return (
-                                        <li key={id} className={`position-relative dropdown-prent $`} onClick={() => dropDown.length && setDropDownActive(dropdownActive ? "" : id)}>
+                                        <li key={id} className={`position-relative dropdown-prent $`} onClick={() => dropDown?.length && setDropDownActive(dropdownActive ? "" : id)}>
                                             <Link to={path} className='d-flex align-items-center justify-content-between ' onClick={() => dropDown.length ? "" : setMenuActive(false)}>
                                                 {label}
-                                                <span>{dropDown.length && (dropdownActive === id ? "-" : "+")}</span>
+                                                <span>{dropDown?.length && (dropdownActive === id ? "-" : "+")}</span>
                                             </Link>
-                                            {dropDown.length &&
+                                            {dropDown?.length &&
                                                 <ul className={`dropdown ${dropdownActive === id ? "dropdown_active" : ""}`}>
                                                     {
                                                         dropDown.map(({ id, path, label }) => {

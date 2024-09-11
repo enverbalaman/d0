@@ -29,24 +29,24 @@ export const menuList = [
         label: "Hakkımızda",
         dropDown: false
     },
-    {
-        id: 3,
-        path: "#",
-        label: "Hizmetlerimiz",
-        dropDown: [
-            {
-                id: 1,
-                path: "/services",
-                label: "Services",
-            },
-            {
-                id: 2,
-                path: "/service-details",
-                label: "Service Details",
-            }
+    // {
+    //     id: 3,
+    //     path: "#",
+    //     label: "Hizmetlerimiz",
+    //     dropDown: [
+    //         {
+    //             id: 1,
+    //             path: "/services",
+    //             label: "Services",
+    //         },
+    //         {
+    //             id: 2,
+    //             path: "/service-details",
+    //             label: "Service Details",
+    //         }
 
-        ]
-    },
+    //     ]
+    // },
     // {
     //     id: 4,
     //     path: "#",
@@ -103,21 +103,21 @@ export const menuList = [
     // },
     {
         id: 5,
-        path: "#",
         label: "Blog",
-        dropDown: [
-            {
-                id: 1,
-                path: "/blog",
-                label: "Blog",
-            },
-            {
-                id: 2,
-                path: "/blog-details",
-                label: "Blog Details",
-            }
+        // dropDown: [
+        //     {
+        //         id: 1,
+        //         path: "/blog",
+        //         label: "Blog",
+        //     },
+        //     {
+        //         id: 2,
+        //         path: "/blog-details",
+        //         label: "Blog Details",
+        //     }
 
-        ]
+        // ]
+        path:'/blog-details'
     },
     {
         id: 6,

@@ -30,11 +30,11 @@ const HeaderOne = ({ }) => {
                                         menuList.map(({ id, dropDown, label, path }) => {
                                             return (
                                                 <li key={id} className="nav-item">
-                                                    <Link to={path} className={`nav-link ${dropDown.length ? "dropdown-toggle" : ""} `}>
+                                                    <Link to={path} className={`nav-link ${dropDown?.length ? "dropdown-toggle" : ""} `}>
                                                         {label}
                                                     </Link>
                                                     {
-                                                        dropDown.length &&
+                                                        dropDown?.length &&
                                                         <ul className="dropdown-menu">
                                                             {
                                                                 dropDown.map(({ id, path, label }) => {

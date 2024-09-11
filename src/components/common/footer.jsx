@@ -35,7 +35,7 @@ const Footer = () => {
     },
     {
       id: 2,
-      name: "Resourses",
+      name: "Kaynaklar",
       links: [
         {
           id: 1,
@@ -45,18 +45,8 @@ const Footer = () => {
         {
           id: 2,
           link: "/privacy-policy",
-          label: "Privacy Policy"
-        },
-        {
-          id: 3,
-          link: "/terms-conditions",
-          label: "Terms & Conditions"
-        },
-        {
-          id: 4,
-          link: "/contact",
-          label: "contact Us"
-        },
+          label: "Gizlilik Politası"
+        }
 
       ]
     },

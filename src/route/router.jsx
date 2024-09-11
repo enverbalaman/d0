@@ -40,30 +40,30 @@ export const router = createBrowserRouter([
         path: "/",
         element: <LayoutTwo />,
         children:[
-            {
-                path: "/home-2",
-                element: <HomeTwo />
-            },
-            {
-                path: "/home-3",
-                element: <HomeThree />
-            },
-            {
-                path: "/service-details",
-                element: <ServiceDetails />
-            },
-            {
-                path: "/services",
-                element: <Services />
-            },
+            // {
+            //     path: "/home-2",
+            //     element: <HomeTwo />
+            // },
+            // {
+            //     path: "/home-3",
+            //     element: <HomeThree />
+            // },
+            // {
+            //     path: "/service-details",
+            //     element: <ServiceDetails />
+            // },
+            // {
+            //     path: "/services",
+            //     element: <Services />
+            // },
             {
                 path: "#/contact",
                 element: <Contact />
             },
-            {
-                path: "/blog",
-                element: <Blog />
-            },
+            // {
+            //     path: "/blog",
+            //     element: <Blog />
+            // },
             {
                 path: "#/blog-details",
                 element: <BlogDetails />
@@ -76,46 +76,46 @@ export const router = createBrowserRouter([
                 path: "#/faq",
                 element: <Faq />
             },
-            {
-                path: "/testimonials",
-                element: <Testimonials />
-            },
-            {
-                path: "/team",
-                element: <Team />
-            },
-            {
-                path: "/pricing",
-                element: <Pricing />
-            },
-            {
-                path: "/terms-conditions",
-                element: <TermsConditions />
-            },
+            // {
+            //     path: "/testimonials",
+            //     element: <Testimonials />
+            // },
+            // {
+            //     path: "/team",
+            //     element: <Team />
+            // },
+            // {
+            //     path: "/pricing",
+            //     element: <Pricing />
+            // },
+            // {
+            //     path: "/terms-conditions",
+            //     element: <TermsConditions />
+            // },
             {
                 path: "#/privacy-policy",
                 element: <PrivacyPolicy />
             },
-            {
-                path: "/search-result",
-                element: <SearchResult />   
-            },
-            {
-                path: "/register",
-                element: <Register />   
-            },
-            {
-                path: "/login",
-                element: <Login />   
-            },
-            {
-                path: "/author",
-                element: <Author />   
-            },
-            {
-                path: "/categories",
-                element: <Categories />   
-            },
+            // {
+            //     path: "/search-result",
+            //     element: <SearchResult />   
+            // },
+            // {
+            //     path: "/register",
+            //     element: <Register />   
+            // },
+            // {
+            //     path: "/login",
+            //     element: <Login />   
+            // },
+            // {
+            //     path: "/author",
+            //     element: <Author />   
+            // },
+            // {
+            //     path: "/categories",
+            //     element: <Categories />   
+            // },
         ]
     }
 ])

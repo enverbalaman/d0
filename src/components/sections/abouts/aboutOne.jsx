@@ -53,7 +53,7 @@ const AboutOne = () => {
                                     <p>Organizations are now forced to implement comprehensive cyber security strategies to protect their systems,</p>
                                 </div>
                             </div>
-                            <Link className="default-btn text-decoration-none" href="/about">
+                            <Link className="default-btn text-decoration-none" href="about">
                                 <i className="ri-arrow-right-line"></i>
                                 Know More About
                             </Link>

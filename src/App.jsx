@@ -46,7 +46,7 @@ const App = () => {
                   <span className="d-block">Sıkça Sorulan Sorular</span>
                   <h2>Sorularınız ve talepleriniz için</h2>
                 </div>
-                <Link className="default-btn text-decoration-none" to="/contact">
+                <Link className="default-btn text-decoration-none" to="contact">
                   <i className="ri-arrow-right-line"></i>
                   Daha Fazla Bilgi
                 </Link>

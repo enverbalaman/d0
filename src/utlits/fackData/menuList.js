@@ -25,7 +25,7 @@ export const menuList = [
     },
     {
         id: 2,
-        path: "/about",
+        path: "/#/about",
         label: "Hakkımızda",
         dropDown: false
     },
@@ -117,11 +117,11 @@ export const menuList = [
         //     }
 
         // ]
-        path:'/blog-details'
+        path:'/#/blog-details'
     },
     {
         id: 6,
-        path: "/contact",
+        path: "/#/contact",
         label: "İletişim",
         dropDown: false
     },

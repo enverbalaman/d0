@@ -58,7 +58,7 @@ const HeaderTwo = () => {
                   <li>
                     <Link className="default-btn text-decoration-none" to="/contact">
                       <i className="ri-arrow-right-line"></i>
-                      İletişime Geç                    </Link>
+                      İletişime Geç      2              </Link>
 
 
                   </li>
@@ -72,13 +72,13 @@ const HeaderTwo = () => {
       <div className="others-option-for-responsive">
         <div className="container">
 
-          <div className="dot-menu" onClick={() => setOtherOption(!othersOption)}>
+          {/* <div className="dot-menu" onClick={() => setOtherOption(!othersOption)}>
             <div className="inner">
               <div className="circle circle-one"></div>
               <div className="circle circle-two"></div>
               <div className="circle circle-three"></div>
             </div>
-          </div>
+          </div> */}
           <div className='menu-icon'>
             <i className={`ri-menu-line ${menuActive ? "d-none" : "d-block "}`} onClick={() => setMenuActive(true)}></i>
             <i className={`ri-close-line  ${menuActive ? "d-block " : "d-none"}`} onClick={() => setMenuActive(false)}></i>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { Link } from 'react-router-dom'
-import logo from "../../assets/images/d0.png"
+import logo from "../../assets/images/logo5.png"
 import Subscribe from './subscribe'
 import { slideUp } from '../../utlits/slideUp'
 const Footer = () => {
@@ -77,9 +77,9 @@ const Footer = () => {
               <div className="col-lg-4">
                 <div className="single-footer-info ms-0">
                   <Link className="text-decoration-none logo" to="/">
-                    <img style={{ width: '100px' }} src={logo} alt="logo" />
+                    <img src={logo} alt="logo" />
                   </Link>
-                  <p>DefendZero, yıllardır siber güvenlik alanında birçok farklı sektörde kapsamlı hizmetler sunmuştur. Finans, sağlık,
+                  <p >DefendZero, yıllardır siber güvenlik alanında birçok farklı sektörde kapsamlı hizmetler sunmuştur. Finans, sağlık,
                     eğitim ve daha birçok sektörde kurumların güvenliğini sağlayarak onları olası tehditlere karşı koruma altına aldık.
                   </p>
                 </div>
@@ -136,7 +136,7 @@ const Footer = () => {
       {/* ---------- copy right area */}
       <div className="copyright-area">
         <div className="container">
-          
+
           <div className="copyright-content text-center" data-cue="slideInUp">
             <p>Copyright @ 2024 <strong>DefendZero</strong>, All Rights Reserved</p>
           </div>

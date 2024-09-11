@@ -27,7 +27,7 @@ const App = () => {
     <>
       <BannerOne />
       <ServicesOne />
-      <SecurityOne />
+      {/* <SecurityOne /> */}
       <PartnersSlider data={partnerDataTwo} />
 
       {/* <ProjectOne /> */}

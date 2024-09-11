@@ -12,7 +12,7 @@ const ServicesOne = () => {
     return (
         <div className="services-area style-2 pb-75">
             <div className="container">
-                <Title sectionName={"Hizmetlerimiz"} sectionTitle={"Kapsamlı Ağ Güvenliği Hizmetlerimiz"} style={"style-2"}/>
+                <Title sectionName={"Hizmetlerimiz"} sectionTitle={"Kapsamlı Siber Güvenlik Hizmetlerimiz"} style={"style-2"}/>
                 <div className="row" >
                     {
                         servicesDataOne.map(({ id, link, service_details, service_name, src }) => {

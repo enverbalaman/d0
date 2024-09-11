@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from "framer-motion"
-import hero_bg from "../../../assets/images/hero/dashboard.png"
+import world from "../../../assets/images/hero/world.png"
 import shap_2 from "../../../assets/images/shape/shape-2.png"
 import { slideUp } from '../../../utlits/slideUp'
 import ModalVideo from 'react-modal-video';
@@ -24,7 +24,7 @@ const BannerOne = () => {
                                 <h1>Essential Policy for Cyber security Protection.</h1>
                                 <p>In today's increasingly digital world, cybersecurity has become paramount. With the rapid expansion of online activities,</p>
                             </div>
-                            <div className="banner-button d-flex align-items-center">
+                            {/* <div className="banner-button d-flex align-items-center">
                                 <Link className="demo text-decoration-none" to="/contact">Request A Demo</Link>
                                 <div className="play-btn d-flex align-items-center">
                                     <div onClick={() => setOpen(true)} className="text-decoration-none popup-youtube icon " >
@@ -34,12 +34,12 @@ const BannerOne = () => {
                                         Watch Intro Video
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="banner-image">
-                            <img src={hero_bg} alt="banner-image" />
+                            <img src={world} alt="banner-image" />
                         </div>
                     </div>
                 </motion.div>

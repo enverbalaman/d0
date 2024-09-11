@@ -7,6 +7,8 @@ import SideBar from '../components/sections/sideBar'
 import { Link, ScrollRestoration } from 'react-router-dom'
 import { slideUp } from '../utlits/slideUp'
 import blog_img from "../assets/images/blog/blog-26.jpg"
+import { blogData } from '../utlits/fackData/blogData'
+
 const BlogDetails = () => {
   return (
     <>
@@ -30,44 +32,44 @@ const BlogDetails = () => {
                   variants={slideUp(1)}
                   viewport={{ once: true, amount: 0.1 }}
                 >
-                  <ul className="list-unstyled ps-0">
-                    <li className="d-inline-block">
-                      <i className="ri-calendar-2-line"></i>
-                      By <Link className="text-decoration-none" to="author">Admin</Link>
-                    </li>
-                    <li className="d-inline-block">
-                      <i className="ri-calendar-2-line"></i>
-                      November 6, 2024
-                    </li>
-                  </ul>
-                  <h1>Beyond Boundaries Safeguard Tomorrow with Expert Cybersecurity Services.</h1>
-                  <p>Cybersecurity is crucial in today's digital age, where many individuals & organizations store a significant amount of sensitive data on computer & other device. This data could be financial information personal information, intellectual property, or other types of data for which unauthorized,</p>
-                  <p>Cybersecurity measures are put in place to ensure the confidentiality, integrity, and availability of information. These measures involve the use of hardware, software, and protocols to protect data and systems from unauthorized access and attacks.</p>
-                  <motion.div className="image"
-                    initial="offscreen"
-                    whileInView="onscreen"
-                    variants={slideUp(1)}
-                    viewport={{ once: true, amount: 0.1 }}
-                  >
-                    <img src={blog_img} alt="blog-image" />
-                  </motion.div>
-                  <p>Cybersecurity is crucial in today's digital age, where many individuals & organizations store a significant amount of sensitive data on computer & other device. This data could be financial information personal information, intellectual property, or other types of data for which unauthorized,</p>
-                  <p>Cybersecurity measures are put in place to ensure the confidentiality, integrity, and availability of information. These measures involve the use of hardware, software, and protocols to protect data and systems from unauthorized access and attacks.</p>
-                  <motion.blockquote
-                    initial="offscreen"
-                    whileInView="onscreen"
-                    variants={slideUp(1)}
-                    viewport={{ once: true, amount: 0.1 }}
-                  >
-                    “Cybersecurity is crucial in today's digital age, where many individuals & organizations
-                    store a significant amount of sensitive data on computer & other device. This data could be
-                    financial information personal information, intellectual property,”
-                  </motion.blockquote>
-                  <p>Cybersecurity is crucial in today's digital age, where many individuals & organizations store a significant amount of sensitive data on computer & other device. This data could be financial information personal information, intellectual property, or other types of data for which unauthorized,</p>
-                  <p>Cybersecurity measures are put in place to ensure the confidentiality, integrity, and availability of information. These measures involve the use of hardware, software, and protocols to protect data and systems from unauthorized access and attacks.</p>
+                  {
+                    blogData.map(({ author, date, thumb, title, description  }) => {
+                      return (
+                        <>
+                          <ul className="list-unstyled ps-0">
+                            <li className="d-inline-block">
+                              <i className="ri-calendar-2-line"></i>
+                              <small className="text-decoration-none">{author}</small>
+                            </li>
+                            <li className="d-inline-block">
+                              <i className="ri-calendar-2-line"></i>
+                              {date}
+                            </li>
+                          </ul>
+                          <h1>{title}</h1>
+                          <p>{description}</p>
+                          <motion.div className="image"
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            variants={slideUp(1)}
+                            viewport={{ once: true, amount: 0.1 }}
+                          >
+                            <img src={thumb} alt="blog-image" />
+                          </motion.div>
+                          <motion.blockquote
+                            initial="offscreen"
+                            whileInView="onscreen"
+                            variants={slideUp(1)}
+                            viewport={{ once: true, amount: 0.1 }}
+                          >                            
+                          </motion.blockquote>
+                          </>
+                      )
+                    })
+                  }
                 </motion.div>
-                <Comments />
-                <LeaveReplay />
+                {/* <Comments /> */}
+                {/* <LeaveReplay /> */}
               </motion.div>
             </div>
           </div>

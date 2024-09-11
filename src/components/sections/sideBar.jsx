@@ -99,7 +99,7 @@ const categories = [
 const SideBar = ({ dActive }) => {
     return (
         <div className="blog-details-left-sidebar">
-            <motion.div className="single-pages-widget form"
+            {/* <motion.div className="single-pages-widget form"
                 initial="offscreen"
                 whileInView="onscreen"
                 variants={slideUp(1)}
@@ -112,7 +112,7 @@ const SideBar = ({ dActive }) => {
                         <button type="submit"><i className="ri-search-2-line"></i></button>
                     </div>
                 </form>
-            </motion.div>
+            </motion.div> */}
             {dActive &&
                 <motion.div className="single-pages-widget latest-posts"
                     initial="offscreen"
@@ -145,7 +145,7 @@ const SideBar = ({ dActive }) => {
                     }
                 </motion.div>
             }
-            <motion.div className="single-pages-widget services"
+            {/* <motion.div className="single-pages-widget services"
                 initial="offscreen"
                 whileInView="onscreen"
                 variants={slideUp(1)}
@@ -157,8 +157,8 @@ const SideBar = ({ dActive }) => {
                         categories.map(({ categorie, id, link }) => <li key={id}><Link className="text-decoration-none" to={link}>{categorie}</Link></li>)
                     }
                 </ul>
-            </motion.div>
-            {
+            </motion.div> */}
+            {/* {
                 dActive &&
                 <motion.div className="single-pages-widget tags"
                     initial="offscreen"
@@ -179,11 +179,11 @@ const SideBar = ({ dActive }) => {
                         }
                     </ul>
                 </motion.div>
-            }
-            <div className="single-pages-widget text-center questions" data-cue="slideInUp">
+            } */}
+            {/* <div className="single-pages-widget text-center questions" data-cue="slideInUp">
                 <h4>Any Questions?</h4>
                 <a href="#">Let’s Talk</a>
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -11,7 +11,7 @@ const PartnersSlider = ({ data }) => {
         <div className="partner-slider-info" data-cue="slideInUp">
 
             <div className="partner-slider">
-            <small >Referanslarımız</small>
+            {/* <small >Referanslarımız</small> */}
 
                 <Swiper
                     spaceBetween={25}

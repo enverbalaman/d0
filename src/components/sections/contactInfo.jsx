@@ -5,7 +5,10 @@ const ContactInfo = () => {
     return (
         <div className="contact-area pages-style pt-100 pb-75">
             <div className="container">
+                <div className='mb-4'>
                 <MapComponent />
+
+                </div>
                 <div className="row justify-content-center" data-cues="fadeIn">
                     <div className="col-lg-4 col-sm-6">
                         <div className="single-contact-card text-center">

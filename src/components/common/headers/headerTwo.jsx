@@ -56,7 +56,7 @@ const HeaderTwo = () => {
                 <ul>
 
                   <li>
-                    <Link className="default-btn text-decoration-none" to="/contact">
+                    <Link className="default-btn text-decoration-none" to="#/contact">
                       <i className="ri-arrow-right-line"></i>
                       İletişime Geç              </Link>
 

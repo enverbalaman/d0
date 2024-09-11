@@ -50,7 +50,7 @@ const AboutFour = () => {
                                     </div>
                                 </div>
                             </div>
-                            <Link className="demo text-decoration-none" to="/contact">Request A Quote</Link>
+                            <Link className="demo text-decoration-none" to="#/contact">Request A Quote</Link>
                         </motion.div>
                     </div>
                 </div>

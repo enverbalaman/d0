@@ -28,7 +28,7 @@ const BannerTwo = () => {
                                 <p>In today's increasingly digital world, cybersecurity has become paramount. With the rapid expansion of online activities, the threat landscape...</p>
                             </div>
                             <div className="banner-wrapper-button d-flex align-items-center">
-                                <Link className="demo text-decoration-none" to="/contact">
+                                <Link className="demo text-decoration-none" to="#/contact">
                                     Request A Demo
                                     <div className="dote"></div>
                                 </Link>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
 import { Link } from 'react-router-dom'
 
 import { zoomIn } from '../../../utlits/zoomIn'
@@ -12,7 +12,7 @@ const ServicesOne = () => {
     return (
         <div className="services-area style-2 pb-75">
             <div className="container">
-                <Title sectionName={"Hizmetlerimiz"} sectionTitle={"Kapsamlı Siber Güvenlik Hizmetlerimiz"} style={"style-2"}/>
+                <Title sectionName={"Hizmetlerimiz"} sectionTitle={"Kapsamlı Siber Güvenlik Hizmetlerimiz"} style={"style-2"} />
                 <div className="row" >
                     {
                         servicesDataOne.map(({ id, link, service_details, service_name, src }) => {
@@ -25,16 +25,13 @@ const ServicesOne = () => {
                                 >
                                     <div className="single-services-info">
                                         <div className="icon">
-                                            {src()}
+                                            <img style={{ width: '50%' }} src={src} />
                                         </div>
                                         <h3>
                                             <Link className="text-decoration-none" href={link}>{service_name}</Link>
                                         </h3>
                                         <p>{service_details}</p>
-                                        <Link className="read-more text-decoration-none" href={link}>
-                                            Read More
-                                            <i className="ri-arrow-right-line"></i>
-                                        </Link>
+
                                     </div>
                                 </motion.div>
                             )

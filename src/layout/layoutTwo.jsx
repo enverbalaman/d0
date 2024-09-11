@@ -2,13 +2,13 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Footer from '../components/common/footer'
 import Modal from '../components/common/modal'
-import HeaderTwo from '../components/common/headers/headerTwo'
+import HeaderOne from '../components/common/headers/headerOne'
 
 const LayoutTwo = () => {
   return (
     <>
       <Modal />
-      <HeaderTwo />
+      <HeaderOne/>
       <Outlet />
       <Footer />
     </>

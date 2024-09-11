@@ -21,8 +21,9 @@ const BannerOne = () => {
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <div className="title">
-                                <h1>Essential Policy for Cyber security Protection.</h1>
-                                <p>In today's increasingly digital world, cybersecurity has become paramount. With the rapid expansion of online activities,</p>
+                                <h1>Siber Güvenliğinizi <strong>Güvence</strong> Altına Alıyoruz!</h1>
+                                <p>DefendZero olarak, verilerinizi korumak ve dijital dünyada güvenliğinizi sağlamak için en gelişmiş siber güvenlik çözümleri sunuyoruz. Güvenliğinizi, uzman ekibimizle 7/24 izleyerek, tehditlere karşı her zaman bir adım önde olmanızı sağlıyoruz.</p>
+                                <p>Verilerinizi koruyun. Riskleri en aza indirin. Güvende kalın!</p>
                             </div>
                             {/* <div className="banner-button d-flex align-items-center">
                                 <Link className="demo text-decoration-none" to="/contact">Request A Demo</Link>

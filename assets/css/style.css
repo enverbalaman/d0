@@ -2300,6 +2300,7 @@ Services Area Style
 
 .single-services-card .image img {
   border-radius: 0px 30px;
+  height: 200px;
 }
 
 .single-services-card h3 {
@@ -2370,6 +2371,7 @@ Services Area Style
 
 .single-services-info .icon {
   margin-bottom: 25px;
+ 
 }
 
 .single-services-info h3 {

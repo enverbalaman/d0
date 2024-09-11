@@ -3,15 +3,6 @@ import { Link } from 'react-router-dom'
 import { motion } from "framer-motion"
 import { zoomIn } from '../../utlits/zoomIn'
 import Title from '../common/title'
-import sm from "../../assets/images/services/sm.png"
-import a from "../../assets/images/services/a.png"
-import l from "../../assets/images/services/l.png"
-import p from "../../assets/images/services/p.png"
-import z from "../../assets/images/services/z.png"
-import d from "../../assets/images/services/d.png"
-import k from "../../assets/images/services/k.png"
-import sis from "../../assets/images/services/sis.png"
-import zararli from "../../assets/images/services/zararli.png"
 const Icon = ({ icon }) => {
     return (
         <div className="icon">
